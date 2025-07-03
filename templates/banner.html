@@ -1,0 +1,15 @@
+{% load static %}
+
+<!-- ========================= SECTION MAIN ========================= -->
+<section class="section-intro padding-y-sm">
+    <div class="container">
+    {% for banner in banner %}
+    <div class="intro-banner-wrap">
+        <img src="{{ banner.banner_image.url }}" class="img-fluid rounded">
+    </div>
+    {% endfor %}
+    </div> <!-- container //  -->
+    </section>
+    <!-- ========================= SECTION MAIN END// ========================= -->
+    
+    
